@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 15, 2019, 3:01:22 PM
+    Author     : NIIT-ASABA-01
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: black;
+    color:white;
+    font-family: "Lato", sans-serif;
+    padding: 10px;
+}
+#menu{
+    width:20%;
+    background:#1c1212;
+    float:left;
+}
+#menu a, #menu span{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    color:orange;
+    font-weight: bold;
+    
+}
+.active{
+    background:white;
+    border:1px solid #1c1212;
+   
+}
+#view{
+    float:left;
+    width: 80%;
+}
+
